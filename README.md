@@ -23,7 +23,16 @@ A retail giant with multiple outlets across the country faced challenges in mana
 * **Holiday Peaks:** Sales show massive spikes during holiday weeks (Thanksgiving, Christmas), requiring targeted inventory surges.
 * **Predictive Power:** The model forecasts a 12-week horizon to help store managers prep for upcoming demand.
 
+* Top Performer: Store 20 (Average Weekly Sales: ~$2.1M).
+* Lowest Performer: Store 33 (Average Weekly Sales: ~$259K).
+* Insight: "Unemployment showed a negative correlation with sales in specific regions, suggesting a higher sensitivity to economic shifts in Store X vs Store Y."
+
 ## 🚀 How to Run
 1. Clone the repo: `git clone https://github.com/yourusername/walmart-sales-forecasting-ml.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the Jupyter Notebook in the `notebooks/` folder.
+
+## 📈 Model Performance
+![Actual vs Predicted Sales for Store 20](Store 20)
+![Actual vs Predicted Sales for Store 33](Store 33)
+![Actual vs Predicted Sales for Store 13](Store 13)
