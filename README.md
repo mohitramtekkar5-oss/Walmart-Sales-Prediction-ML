@@ -34,5 +34,7 @@ A retail giant with multiple outlets across the country faced challenges in mana
 
 ## 📈 Model Performance
 ![Actual vs Predicted Sales for Store 20](Store 20)
+
 ![Actual vs Predicted Sales for Store 33](Store 33)
+
 ![Actual vs Predicted Sales for Store 13](Store 13)
