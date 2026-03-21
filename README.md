@@ -65,4 +65,4 @@ Retail businesses often struggle with inventory management due to fluctuating de
 ---
 
 ## 🖼️ Screenshots
-![Sales Trend](images/Store_13.png)
+![Sales Trend](images/Store 13.PNG)
