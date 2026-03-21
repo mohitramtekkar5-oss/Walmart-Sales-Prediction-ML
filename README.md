@@ -65,11 +65,4 @@ Retail businesses often struggle with inventory management due to fluctuating de
 ---
 
 ## 🖼️ Screenshots
-![sales trend](Store 13.png) 
 
----
-
-## ▶️ How to Run
-
-```bash
-pip install -r requirements.txt
