@@ -65,4 +65,4 @@ Retail businesses often struggle with inventory management due to fluctuating de
 ---
 
 ## 🖼️ Screenshots
-![Sales Trend](images/Store 13.PNG)
+![Sales Trend](https://github.com/mohitramtekkar5-oss/Walmart-Sales-Prediction-ML/blob/b035972387b248fd535ededf65f93a0eaf596615/Store%2033.PNG)
