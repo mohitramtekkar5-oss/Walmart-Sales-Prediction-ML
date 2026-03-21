@@ -65,10 +65,7 @@ Retail businesses often struggle with inventory management due to fluctuating de
 ---
 
 ## 🖼️ Screenshots
-> (Add screenshots here)
-- EDA visualizations  
-- Prediction graphs  
-- Model performance outputs  
+![sales trend](Store 13.png) 
 
 ---
 
