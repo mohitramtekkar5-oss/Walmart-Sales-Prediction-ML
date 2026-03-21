@@ -1,40 +1,78 @@
-# Walmart-Sales-Prediction-ML
-Predicting weekly retail sales across 45 stores using Machine Learning to optimize inventory management.
+# 🛒 Walmart Sales Forecasting & Inventory Optimization
 
-# Walmart Sales Prediction & Statistical Analysis
+## 📌 Problem Statement
+Retail businesses often struggle with inventory management due to fluctuating demand, seasonal trends, and external economic factors. Poor forecasting can lead to stock-outs or overstocking, impacting revenue and operational efficiency.
 
-## 📌 Project Overview
-A retail giant with multiple outlets across the country faced challenges in managing inventory to match demand with supply. This project uses historical sales data from 45 Walmart stores to uncover key business insights and build a predictive model to forecast sales for the next 12 weeks.
+---
 
-## 📊 Business Questions Addressed
-* **Unemployment Impact:** How does the unemployment rate correlate with sales?
-* **Seasonality:** What are the peak sales periods and the drivers behind them?
-* **Environmental Factors:** Does temperature significantly shift consumer behavior?
-* **Economic Indicators:** How does the Consumer Price Index (CPI) affect different store categories?
-* **Performance Benchmarking:** Identifying the top and bottom-performing stores.
+## 🎯 Objective
+- Forecast weekly sales across 45 Walmart stores  
+- Analyze the impact of macroeconomic factors on sales  
+- Improve inventory planning and supply-demand alignment  
+
+---
 
 ## 🛠️ Tech Stack
-* **Language:** Python 3.x
-* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
-* **Analysis:** Exploratory Data Analysis (EDA), Outlier Analysis, Statistical Modeling
+- Python (Pandas, NumPy, Scikit-learn)  
+- Data Visualization (Matplotlib / Seaborn)  
+- Jupyter Notebook  
 
-## 📈 Key Findings (Preview)
-* **Store Performance:** Significant variance was found between the highest and lowest-performing stores, suggesting regional economic differences.
-* **Holiday Peaks:** Sales show massive spikes during holiday weeks (Thanksgiving, Christmas), requiring targeted inventory surges.
-* **Predictive Power:** The model forecasts a 12-week horizon to help store managers prep for upcoming demand.
+---
 
-* Top Performer: Store 20 (Average Weekly Sales: ~$2.1M).
-* Lowest Performer: Store 33 (Average Weekly Sales: ~$259K).
-* Insight: "Unemployment showed a negative correlation with sales in specific regions, suggesting a higher sensitivity to economic shifts in Store X vs Store Y."
+## 📊 Dataset
+- 6,400+ records covering multiple Walmart stores  
+- Features include:
+  - Store ID  
+  - Weekly Sales  
+  - CPI (Consumer Price Index)  
+  - Unemployment Rate  
+  - Holiday Indicators  
 
-## 🚀 How to Run
-1. Clone the repo: `git clone https://github.com/yourusername/walmart-sales-forecasting-ml.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the Jupyter Notebook in the `notebooks/` folder.
+---
 
-## 📈 Model Performance
-![Actual vs Predicted Sales for Store 20](Store 20)
+## ⚙️ Approach
 
-![Actual vs Predicted Sales for Store 33](Store 33)
+### 1. Data Preprocessing
+- Handled missing values and inconsistent data  
+- Converted raw data into structured format  
 
-![Actual vs Predicted Sales for Store 13](Store 13)
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed sales trends across stores and time periods  
+- Studied the effect of CPI and unemployment on sales  
+
+### 3. Feature Engineering
+- Created features for seasonal trends and holiday periods  
+- Identified peak demand cycles  
+
+### 4. Predictive Modeling
+- Built regression models using Scikit-learn  
+- Tuned models for better forecasting performance  
+
+---
+
+## 📈 Key Insights
+- Sales show significant spikes during holiday seasons  
+- CPI and unemployment rates influence consumer spending behavior  
+- Seasonal patterns are critical for accurate forecasting  
+
+---
+
+## 📉 Results
+- Generated 12-week sales forecasts  
+- Enabled better inventory planning and demand prediction  
+- Reduced risk of stock-outs and overstocking  
+
+---
+
+## 🖼️ Screenshots
+> (Add screenshots here)
+- EDA visualizations  
+- Prediction graphs  
+- Model performance outputs  
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
